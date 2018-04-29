@@ -1,0 +1,7 @@
+---
+ - name: Creating user
+   user:
+    name: testuser
+    password: muvi@2018
+    shell: /bin/bash
+    home: /home/testuser
